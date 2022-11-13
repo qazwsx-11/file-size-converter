@@ -3,7 +3,7 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 
-public class converter {
+public class Main {
   public static void main(String[] args) {
   
       // setting
@@ -11,6 +11,10 @@ public class converter {
     Scanner sc = new Scanner (System.in);
 
 /* */
+
+// creating a loop
+boolean woof = true;
+    while (woof) {
 
     System.out.println("What is your file size");
     int num = sc.nextInt();
@@ -97,8 +101,20 @@ if (unit == 5) {
   System.out.println(GB + " Gigabytes");
 
 }
+
+System.out.println("Would you like to continue? (Type 1 to continue or press any other key to exit. )");
+int meow = sc.nextInt();
+
+if (meow == 1) {
+    
+    
+}
+
 else {
+  woof = false;
   System.exit(1);
+
+}
 
 }
 
@@ -106,3 +122,5 @@ else {
   }
 
 }
+/* 32000, 3 
+ end */
