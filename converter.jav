@@ -7,7 +7,7 @@ public class Main {
   public static void main(String[] args) {
   
       // setting
-    DecimalFormat df = new DecimalFormat("###.#########");
+    DecimalFormat df = new DecimalFormat("###.#####");
     Scanner sc = new Scanner (System.in);
 
 /* */
