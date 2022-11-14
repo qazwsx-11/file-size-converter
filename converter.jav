@@ -111,7 +111,6 @@ if (meow == 1) {
 }
 
 else {
-  woof = false;
   System.exit(1);
 
 }
