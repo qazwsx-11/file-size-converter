@@ -2,7 +2,7 @@ import java.util.*;
 import java.text.DecimalFormat;
 
 
-public class Main {
+public class converter {
   public static void main(String[] args) {
   
       // setting
